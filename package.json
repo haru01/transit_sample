@@ -1,0 +1,11 @@
+{
+    "name": "route"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+    "underscore": "latest",
+    "coffee-script": "latest"
+  }, "devDependencies": {
+     "jasmine-node": "latest"
+  }
+}
