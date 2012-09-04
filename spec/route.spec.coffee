@@ -107,7 +107,7 @@ describe '経路マップ#route 多くの数の経路マップが登録されて
     @routeMap = standardMap()
 
   it '経路を返すこと', ->
-    # XXX 最短時間はまだ。見つかったものを返している
+    # XXX 最短時間はまだ。はじめに見つかったものを返している
     expect( @routeMap.route('東京', '横浜').stations ).toEqual(['東京', '川崎', '横浜'])
     expect( @routeMap.route('東京', '大宮').stations ).toEqual(['東京', '川崎', '横浜', '武蔵小杉', '西国分寺', '南浦和', '大宮'])
     expect( @routeMap.route('渋谷', '田端').stations ).toEqual(['渋谷', '武蔵小杉', '横浜', '川崎', '東京', '秋葉原', '田端'])
